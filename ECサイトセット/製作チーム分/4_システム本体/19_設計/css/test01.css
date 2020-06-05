@@ -1,0 +1,210 @@
+.content-wrap{
+  width:800px;
+  margin: 0 auto;
+}
+.p-p-photo{
+margin-bottom: 50px;
+}
+.p-photo{
+width:800px;
+display: flex;
+justify-content: space-around;
+}
+.e-photo{
+  width: 150px;
+  height: 150px;
+}
+.p-p-item{
+  padding-top: 50px;
+  margin:0 auto;
+  width: 750px;
+  background-color: #CCCCCC;
+  padding-bottom: 40px;
+}
+.row
+{
+  margin:0 auto;
+    width:400px;
+    display: flex;
+  justify-content:space-around;
+  padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.item-detail{
+  padding-bottom: 10px;
+  height:50px;
+}
+.price{
+  visibility: visible;
+}
+.own_price,
+.min_price{
+  visibility: hidden;
+}
+#min_price{
+  visibility: hidden;
+}
+.btn-red{
+  background: #FD6666;
+}
+.btn-blue{
+  background: #66CCFF;
+}
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square-shadow:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+
+.contents-box{
+  width: 1300px;
+}
+
+.content-wrap{
+  padding: 20px;
+}
+
+.p-p-photo{
+  text-align: center;
+}
+#upload_file {
+  display: none;
+}
+#input-label {
+  background: rgb(161, 153, 253);
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font: italic;
+  font: bold;
+  color: brown;
+}
+/* #input-label::after {
+  content: "選択されていません";
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: -140px;
+  top: calc(50% - 10px);
+}
+#input-label.changed::after {
+  content: "";
+} */
+
+.filename {
+  font-size: 12px;
+}
+#input-group > p{
+  text-align: center;
+  font-size: 20px;
+  font: bold;
+}
+#fake_text_box{
+  margin-top: 10px;
+  line-height: 20px;
+}
+/* testarea 制御 */
+textarea{
+  margin-bottom: 10px;
+}
+
+/* ログイン・新規登録 */
+
+body {
+  font-size: 16px;
+}
+
+#popen {
+  cursor: pointer;
+  width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+#pclose {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  padding: 12px;
+  margin: -30px 20px 10px auto;
+  color: white;
+}
+
+#pmask {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 81;
+  transition: 0.8s;
+}
+
+#pmodal > h2{
+  width: 130px;
+  text-align: center;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-left:solid 4px #4F4F4F;
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-top: -30px;
+  height: 10px;
+}
+
+#pmodal {
+  background: #fff;
+  width: 600px;
+  padding: 40px;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 92;
+  transition: 0.8s;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#pmodal p {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+
+#pmask.hidden {
+  display: none;
+}
+
+#pmodal.hidden {
+  transform: translate(0, -700px);
+}
+
+.my-page{
+  margin-right: 135px;
+}
+#notice {
+  width: 120px;
+  margin-left: 569px; 
+}

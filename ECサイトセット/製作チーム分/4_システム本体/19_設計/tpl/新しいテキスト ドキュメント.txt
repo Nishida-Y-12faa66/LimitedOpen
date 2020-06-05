@@ -1,0 +1,142 @@
+<input type="submit" value="./images/wloupe.png" width="20px" height="20px" class="btn2" name="asearch">
+
+<input type="submit" value="検索する" class="btn2" name="rsearch">
+
+    <nav id="header-bottom">
+      <ul>
+        <li id="category"><a href=""><img src="./images/list.png" width="25px" height="auto"> カテゴリーから探す</a></li>
+        <?php if($rcode == 1): ?>
+          <li id="notice"><a href="./my-page.php"><img src="./images/bell.png" width="25px" height="auto"> <span class="word">お知らせ</a></li>
+        <?php endif ?>
+          <?php if ($rcode == 0) : ?>
+            <div id="popen">
+              <li class="my-page"><img src="./images/hito.png" width="25px" height="auto"> <span class="word">ログイン</li>
+            </div>
+          <?php else : ?>
+            <li class="my-page"><a href="my-page.php"><img src="./images/hito.png" width="25px" height="auto"> <span class="word">マイページ</</li>
+          <?php endif ?>
+        <div id="pmask" class="hidden"></div>
+        <section id="pmodal" class="hidden">
+          <div id="pclose">
+            <p><img src="./images/x.png"></p>
+          </div>
+          <h2>ログイン・新規登録</h2>
+          <div class="login">
+            <p>既にアカウントを持っている方はこちら</p>
+            <a href="login.php" class="button red">ログイン</a>
+          </div>
+          <div class="registration">
+            <p>まだアカウントを持っていない方はこちら</p>
+            <a href="registration.php" class="button blue">新規会員登録</a>
+          </div>
+        </section>
+
+        <script type="text/javascript">
+          'use strict'; {
+            const open = document.getElementById('popen');
+            const close = document.getElementById('pclose');
+            const modal = document.getElementById('pmodal');
+            const mask = document.getElementById('pmask');
+
+            open.addEventListener('click', function() {
+              modal.classList.remove('hidden');
+              mask.classList.remove('hidden');
+            });
+            close.addEventListener('click', function() {
+              modal.classList.add('hidden');
+              mask.classList.add('hidden');
+            });
+            mask.addEventListener('click', function() {
+              modal.classList.add('hidden');
+              mask.classList.add('hidden');
+            });
+          }
+        </script>
+      </ul>
+    </nav>
+
+/* ログイン・新規登録 */
+
+body {
+  font-size: 16px;
+}
+
+#popen {
+  cursor: pointer;
+  width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+#pclose {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  padding: 12px;
+  margin: -30px 20px 10px auto;
+  color: white;
+}
+
+#pmask {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 81;
+  transition: 0.8s;
+}
+
+#pmodal > h2{
+  width: 130px;
+  text-align: center;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-left:solid 4px #4F4F4F;
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-top: -30px;
+  height: 10px;
+}
+
+#pmodal {
+  background: #fff;
+  width: 600px;
+  padding: 40px;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 92;
+  transition: 0.8s;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#pmodal p {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+
+#pmask.hidden {
+  display: none;
+}
+
+#pmodal.hidden {
+  transform: translate(0, -700px);
+}
+
+.my-page{
+  margin-right: 135px;
+}
+#notice {
+  width: 120px;
+  margin-left: 569px; 
+}

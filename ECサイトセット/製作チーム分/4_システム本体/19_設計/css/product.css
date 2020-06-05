@@ -1,0 +1,357 @@
+.image_area{
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.side{
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+}
+
+.color1_1{
+  margin-top: 10px;
+  font-size:0.8em;
+  color: #fff;
+  background-color: #ff8c00;
+  width: 60px;
+  text-align: center;
+  float: left;
+  margin-left: 10px;
+  border-radius: 5px;
+} 
+
+.color2_1{
+  margin-top: 10px;
+  font-size:0.8em;
+  color: #fff;
+  background-color: #00bfff;
+  width: 85px;
+  text-align: center;
+  float: left;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.color3_1{
+
+  height:60px;
+  width: 310px;
+  line-height: 60px;
+  background-color: #FF0040;
+  border-radius: 10px;
+  text-align: center;
+  
+
+
+}
+
+.color3_1 a{
+
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.2em;
+
+}
+
+.color3_2{
+
+  height:40px;
+  width: 300px;
+  line-height: 40px;
+  background-color: #FF0040;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.color3_2 a{
+  color: #fff;
+}
+
+.color3_5{
+
+  height:40px;
+  width: 200px;
+  line-height: 40px;
+  background-color: #FF0040;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border:none;
+  display: inline-block;
+   color: #fff;
+   margin-top: 20px;
+}
+
+.color3_5:hover{
+
+  opacity: 80%;
+  cursor: pointer;
+}
+
+
+.color3_3{
+  height:60px;
+  width: 310px;
+  line-height: 60px;
+  background-color: #696969;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.color3_3 a{
+
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.2em;
+
+}
+
+.color3_4{
+  margin:0 auto;
+  height:40px;
+  width: 200px;
+  line-height: 40px;
+  background-color: #696969;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.color3_4 a{
+
+  font-weight: 400;
+  color: #fff;
+  font-size: 1em;
+
+}
+
+.right_area{
+  width: 650px;
+  height: 500px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+  
+
+}
+
+.product_name{
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.price{
+  color:#FA5858;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.gray{
+  background-color: #E6E6E6;
+  height: 35px;
+  line-height: 35px;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.comment{
+  clear: both;
+  width: 650px;
+  padding-top: 50px;
+  margin-left: 50px;
+  float: left;
+}
+
+.detail{
+  float: left;
+  height:0px;
+  margin-top: 50px;
+  margin-left: 50px;
+ 
+}
+
+.detail table{
+  width: 400px;
+  height: 300px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+
+
+}
+
+.detail table td:first-child{
+  background-color: #D8D8D8;
+  text-align: center;
+
+}
+
+.detail table td:nth-child(2){
+  
+  text-align: center;
+
+}
+
+.contents-box{
+  height: 1300px;
+  width: 1290px;
+}
+
+.prohi_profile p:nth-child(3){
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.3em;
+  
+}
+
+.prohi_profile p img{
+  border-radius: 50%;
+  margin-left: 20px;
+
+}
+
+.prohi_profile p:nth-child(2){
+
+  float: left;
+  font-size: 1.2em;
+
+}
+
+.prohi_profile ul{
+  margin-top: 15px;
+  float: left;
+  text-align: center;
+  margin-left: 30px;
+
+}
+
+.prohi_profile li:first-child{
+  font-size: 1.2em;
+}
+
+footer{
+  clear: both;
+}
+
+.com{
+  display: flex;
+  width: 700px;
+  
+  margin:0 auto;
+  margin-top: 20px;
+
+}
+
+.com:last-child{
+  padding-bottom: 50px;
+}
+
+.com_left img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.com_user{
+  padding-top: 5px;
+  font-size: 0.7em;
+}
+
+.com_com{
+  font-size: 0.7em;
+  width: 400px;
+  margin-top: 5px;
+  padding: 8px;
+  color: black;
+  background-color: #fff;
+  border-radius: 15px;
+  border:solid 1px gray;
+
+
+}
+
+  .modaal-content-container{
+    height: 400px;
+    width: 500px;
+  }
+.modaal-content.modaal-focus{
+  width: 500px;
+  margin: 0;
+}
+
+.mt{
+  margin-top:20px; 
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-left:solid 4px #4F4F4F;
+  padding-left: 10px;
+  margin-left: 20px;
+  height: 10px;
+}
+
+#modaal input[name='h_price']{
+  height: 30px;
+  width: 990px;
+}
+
+.priw{
+  height: 30px;
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 1.3em;
+}
+
+.priw2{
+  height: 30px;
+  width: 200px;
+}
+
+.maru{
+  border: none;
+  background-color: #FA5858;
+  padding: 20px;
+  color: #fff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+}
+
+.my-page{
+  margin-right: 135px;
+}
+#notice {
+  width: 120px;
+  margin-left: 569px; 
+}

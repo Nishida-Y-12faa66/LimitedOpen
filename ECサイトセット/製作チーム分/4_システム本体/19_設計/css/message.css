@@ -1,0 +1,165 @@
+﻿/* CSS Document */
+
+/*デフォルトスタイルの初期化*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+
+/*==１）bodyに背景色（黒）・背景画像設定しコントロール=====================*/
+
+.contents-box{
+	width:800px;
+	margin:10px auto 10px auto;
+	height: auto;
+}
+
+.c_title{
+	font-size: 1.2em;
+	height: 30px;
+	line-height: 15px;
+	padding-left: 90px;
+	margin-bottom: 50px;
+	background-color: #49485B;
+	color: white;
+	
+}
+
+textarea{
+	width: 500px;
+	margin-left: 90px;
+}
+
+
+form{
+	width: 700px;
+	margin:0 auto;
+}
+
+button{
+	margin:0 auto;
+}
+
+.color3_1{
+ color: white;
+ margin-left: 90px;
+
+  height:50px;
+  width: 210px;
+  line-height: 50px;
+  background-color: #FF0040;
+  border-radius: 10px;
+  text-align: center;
+  border:none;
+  margin-top: 20px;
+}
+
+.color3_1:hover{
+ 	opacity: 80%;
+ 	cursor: pointer;
+ }
+
+hr{
+	
+	width: 680px;
+	margin:0 auto;
+	margin-top: 30px;
+	border-top:none;
+
+}
+
+.sub_t{
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+#header-top h1{
+	margin:0 auto;
+	margin-top: 15px;
+	
+}
+
+.banana{
+	position: absolute;
+	top: 66px;
+	right: 530px;
+	position: fixed;
+}
+
+.com{
+	display: flex;
+	width: 700px;
+	
+	margin:0 auto;
+	margin-top: 20px;
+
+}
+
+.com:last-child{
+	padding-bottom: 120px;
+}
+
+.com_left img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.com_user{
+	padding-top: 5px;
+}
+
+.com_com{
+	width: 500px;
+	margin-top: 5px;
+	padding: 20px;
+	color: black;
+	background-color: #fff;
+	border-radius: 20px;
+	border:solid 1px gray;
+
+
+}
+
+.btn-circle-flat a{
+	color: white;
+}
+
+.btn-circle-flat {
+	position: absolute;
+	bottom: 50px;
+	right: 100px;
+	position: fixed;
+  display: inline-block;
+  text-decoration: none;
+  background:#FF0040 ;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btn-circle-flat:hover {
+  opacity: 60%;
+}
+
+.intro_s{
+	width: 400px;
+	padding: 30px;
+}
+
+.comno{
+	text-align: center;
+	font-size: 1.1em;
+	padding-top: 20px;
+	padding-bottom: 20px;  
+}
